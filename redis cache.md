@@ -27,3 +27,15 @@ Redis is an in-memory data structure store, used as a distributed, in-memory key
 10.In the Source box, choose Anywhere which has the port range (0.0.0.0/0) so that any Amazon EC2 instance that you launch within your Amazon VPC can connect to your     ElastiCache nodes.
 
 11.Choose Save.When you launch an Amazon EC2 instance into your Amazon VPC, that instance will be able to connect to your ElastiCache cluster.
+
+
+
+## Steps to validate the connection to a linux server :
+
+    $ sudo su -
+
+    $ yum install telnet     install telnet
+
+    # telnet redistest.vnicjp.ng.0001.aps1.cache.amazonaws.com 6379   [ telnet copy Primary endpoint and remove the colon ":" before 6379  ]
+  
+[Annotation 2022-12-05 042951](https://user-images.githubusercontent.com/119755263/205637743-ad3381f8-3db4-4275-9884-6462dc326884.png)
