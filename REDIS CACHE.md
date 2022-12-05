@@ -38,4 +38,9 @@ Redis is an in-memory data structure store, used as a distributed, in-memory key
 
     # telnet redistest.vnicjp.ng.0001.aps1.cache.amazonaws.com 6379   [ telnet copy Primary endpoint and remove the colon ":" before 6379  ]
   
-[Annotation 2022-12-05 042951](https://user-images.githubusercontent.com/119755263/205637743-ad3381f8-3db4-4275-9884-6462dc326884.png)
+![Image](https://user-images.githubusercontent.com/119755263/205637743-ad3381f8-3db4-4275-9884-6462dc326884.png)
+------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+![Image](https://user-images.githubusercontent.com/119755263/205641477-2b0835eb-3452-4c0f-a1e4-a6b74e0444fd.png)
+------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
