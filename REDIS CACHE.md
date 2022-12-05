@@ -34,7 +34,7 @@ Redis is an in-memory data structure store, used as a distributed, in-memory key
 
     $ sudo su -
 
-    $ yum install telnet     install telnet
+    $ yum install telnet
 
     # telnet redistest.vnicjp.ng.0001.aps1.cache.amazonaws.com 6379   [ telnet copy Primary endpoint and remove the colon ":" before 6379  ]
   
