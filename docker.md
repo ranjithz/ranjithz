@@ -62,37 +62,37 @@ Secure: Applications are safer in containers and Docker provides the strongest d
 
 ## TO INSTALL DOCKER USE THIS COMMAND BELOW :
 
- # yum install docker
+  $ yum install docker
 
 ## Docker commands for creating a container for httpd :
 
-To start docker
+# To start docker
  
- # systemctl start docker
+  $ systemctl start docker
 
-To check the docker status 
+# To check the docker status 
 
- # systemctl status docker
+  $ systemctl status docker
   
-To pull a httpd image from docker hub.
+# To pull a httpd image from docker hub.
 
- # docker pull httpd
+  $ docker pull httpd
 
-To list the images in docker
+# To list the images in docker
  
- # docker image ls
+  $ docker image ls
 
-To start a container
+# To start a container
 
- # docker run -d --name myhttpd 8080:80 httpd
+  $ docker run -d --name myhttpd 8080:80 httpd
  
-To getting in to the running container
+# To getting in to the running container
  
- # docker container exec -it __containerid__ /bin/bash
+   $ docker container exec -it __containerid__ /bin/bash
 
- To list the container from outside the container
+# To list the container from outside the container
  
- # docker container exec -it __containerid__ ls
+   $ docker container exec -it __containerid__ ls
 
   
 
